@@ -16,14 +16,14 @@ const Pagination = ({ prev, next, onPrevious, onNext }) => {/* Props to make pag
             {
                 prev ? (
                     <div className="button">
-                        <button className="page-link" onClick={handlePrevious}>Previous</button>
+                        <button className="page_link" onClick={handlePrevious}>Previous</button>
                     </div>
                 ) : null
             }
             {
                 next ? (
                     <div className="button">
-                        <button className="page-link" onClick={handleNext}>Next</button>
+                        <button className="page_link" onClick={handleNext}>Next</button>
                     </div>
                 ) : null
             }

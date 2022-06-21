@@ -8,20 +8,21 @@
     background: rgb(20, 20, 20)
 }
 
-.button {
+.page_link {
     height: 40px;
     width: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
     font-size: 30px;
     border: 1px solid white;
     transition: .5s;
     margin: 0px 20px;
+    color: white;
+    background: rgb(20, 20, 20);
 }
 
-.button:hover {
+.page_link:hover {
     background: white;
     color: black;
 }
