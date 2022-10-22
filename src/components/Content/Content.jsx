@@ -36,15 +36,13 @@ const Content = () => {
     <>
       <Pagination prev={Info.prev} next={Info.next} onPrevious={onPrevious} onNext={onNext} />
       <div className="cards_container">
-        {Character.map((item, index) => ( /* .map function to iterate all of our characters */
+        {Character.map((item, index) => ( /* .map function to iterate through all of our characters */
           <div className="card_container" key={index}>
-            <p className="card_number">{item.id}</p>
             <img src={item.image} alt="character" />
             <div className="card_body">
               <h5 className="card_name">{item.name}</h5>
-              <hr />
-              <p>Location: {item.location.name}</p>
-              <p>Species: {item.species}</p>
+              <p>{item.location.name}</p>
+              <p>{item.species}</p>
             </div>
           </div>
         ))}

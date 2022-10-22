@@ -10,13 +10,16 @@
 
 .page_link {
     height: 40px;
-    width: 150px;
+    width: fit-content;
+    padding: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 30px;
     border: 1px solid white;
-    transition: .5s;
+    font-family: 'Poppins';
+    cursor: pointer;
+    transition: .2s;
     margin: 0px 20px;
     color: white;
     background: rgb(20, 20, 20);
