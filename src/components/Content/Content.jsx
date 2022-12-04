@@ -34,7 +34,6 @@ const Content = () => {
 
   return (
     <>
-      <Pagination prev={Info.prev} next={Info.next} onPrevious={onPrevious} onNext={onNext} />
       <div className="cards_container">
         {Character.map((item, index) => ( /* .map function to iterate through all of our characters */
           <div className="card_container" key={index}>
